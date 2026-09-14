@@ -135,42 +135,88 @@ if (str_contains($text, "PHP")) {
 
 
 
-echo "<h1>Hi I am Ayaz!</h1>";
-echo "i am now adding two numbers <br>";
-$x = 3232;
-$y = 204827;
+// echo "<h1>Hi I am Ayaz!</h1>";
+// echo "i am now adding two numbers <br>";
+// $x = 3232;
+// $y = 204827;
 
-echo "The Sum of " . $x . " & " . $y . " = " . $x+$y . "<br>";
+// echo "The Sum of " . $x . " & " . $y . " = " . $x+$y . "<br>";
 
-$age = 20;
+// $age = 20;
 
-if ($age > 18) {
-    echo "You are adult -- " . $age;
-} else if ($age <= 18) {
-    echo "You are under 18 -- " . $age ;
-}
-
-
-$number = 8;
-
-echo "<br>";
-
-if ($number % 2 == 0 ) {
-    echo "The number is even -- " . $number;
-} else  {
-    echo "The number is odd -- " . $number;
-}
+// if ($age > 18) {
+//     echo "You are adult -- " . $age;
+// } else if ($age <= 18) {
+//     echo "You are under 18 -- " . $age ;
+// }
 
 
-echo "<br>";
+// $number = 8;
+
+// echo "<br>";
+
+// if ($number % 2 == 0 ) {
+//     echo "The number is even -- " . $number;
+// } else  {
+//     echo "The number is odd -- " . $number;
+// }
 
 
-$name = "Ayaz";
-$age = 18;
-$city = "Lahore";
+// echo "<br>";
 
 
-echo "Hi, my name is " . $name . ". I am " . $age . " oears old and i live in " . $city . "."; 
+// $name = "Ayaz";
+// $age = 18;
+// $city = "Lahore";
+
+
+// echo "Hi, my name is " . $name . ". I am " . $age . " oears old and i live in " . $city . "."; 
+
+
+echo "<span> I am learning For-Loop in PHP  <br> </span>";
+
+// $x = 0;
+
+// for ($x; $x <= 100; $x++) {
+//     if ($x % 2 != 0) {
+//         echo "$x <br>";
+//     }
+// }
+
+
+// $i = 1; // Initialize counter
+// while ($i <= 6) { // Check condition
+//   echo $i; // Execute code
+//   $i++; // Increment counter
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$array = array("blue", "red", "white");
+echo $array[0];
+
+
+
+
+
+
+
+
+
+
+
 
 
 
