@@ -173,7 +173,7 @@ if (str_contains($text, "PHP")) {
 // echo "Hi, my name is " . $name . ". I am " . $age . " oears old and i live in " . $city . "."; 
 
 
-echo "<span> I am learning For-Loop in PHP  <br> </span>";
+echo "<span> I am learning Arrays in PHP  <br> </span>";
 
 // $x = 0;
 
@@ -191,25 +191,17 @@ echo "<span> I am learning For-Loop in PHP  <br> </span>";
 // }
 
 
+// Simple Index Array
 
-
-
-
-
-
-
-
-
-
-
-
-
-$array = array("blue", "red", "white");
+$array = ["blue", "red", "white"];
 echo $array[0];
 
 
+// Associative Array
 
 
+$array = ["ayaz" => 19, "hamza" => 19, "hammad" => 17];
+echo var_dump($array);
 
 
 
